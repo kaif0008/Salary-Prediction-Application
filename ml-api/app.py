@@ -44,5 +44,7 @@ def predict():
         print("Error:", e)
         return jsonify({'error': 'Invalid input or encoding failed'}), 400
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001, debug=True)
+# ⚠️ REMOVE this block for production (Gunicorn will run it)
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5001, debug=True)
+

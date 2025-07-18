@@ -21,7 +21,7 @@ RUN pip3 install -r /app/ml-api/requirements.txt
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Expose ports for both apps
-EXPOSE 8080 5001
+EXPOSE 8080
 
 # Start Supervisor to run both apps
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]

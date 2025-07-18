@@ -1,0 +1,5 @@
+com\example\salarypredict\SalaryResponse.class
+com\example\salarypredict\SalaryRequest.class
+com\example\salarypredict\SalaryController.class
+com\example\salarypredict\SalarypredictApplication.class
+com\example\salarypredict\HomeController.class
